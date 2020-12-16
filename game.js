@@ -25,10 +25,10 @@ var bulletTime = 0;
 
 function preload ()
 {
-    this.load.image('lgrock1', '/images/sprite_3.png');
-    this.load.image('lgrock2', '/images/sprite_4.png');
-    this.load.image('smrock1', '/images/sprite_5.png');
-    this.load.image('smrock2', '/images/sprite_6.png');
+    this.load.image('lgrock1', './images/sprite_3.png');
+    this.load.image('lgrock2', './images/sprite_4.png');
+    this.load.image('smrock1', './images/sprite_5.png');
+    this.load.image('smrock2', './images/sprite_6.png');
 
     this.load.image('ship', '/sprite_0.png')
     this.load.image('bullet', '/New Piskel-8.png.png')
@@ -50,7 +50,7 @@ function create ()
     //bullets.setAll('outOfBoundsKill', true);
     //firecooldown = this.time.add( new Phaser.timer)
 
-    weapon = this.add.weapon(30, 'bullet')
+    //weapon = this.add.weapon(30, 'bullet')
 
     control = this.input.keyboard.createCursorKeys()
     fire = this.input.keyboard.addKey(this.input.keyboard.SPACEBAR)
