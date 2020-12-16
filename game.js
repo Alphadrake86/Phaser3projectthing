@@ -30,8 +30,8 @@ function preload ()
     this.load.image('smrock1', './images/sprite_5.png');
     this.load.image('smrock2', './images/sprite_6.png');
 
-    this.load.image('ship', '/sprite_0.png')
-    this.load.image('bullet', '/New Piskel-8.png.png')
+    this.load.image('ship', './images/sprite_0.png')
+    this.load.image('bullet', './images/sprite_1.png')
 }
 
 function create ()
