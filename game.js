@@ -25,10 +25,10 @@ var bulletTime = 0;
 
 function preload ()
 {
-    this.load.image('lgrock1', '/sprite_3.png');
-    this.load.image('lgrock2', '/sprite_4.png');
-    this.load.image('smrock1', '/sprite_5.png');
-    this.load.image('smrock2', '/sprite_6.png');
+    this.load.image('lgrock1', '/images/sprite_3.png');
+    this.load.image('lgrock2', '/images/sprite_4.png');
+    this.load.image('smrock1', '/images/sprite_5.png');
+    this.load.image('smrock2', '/images/sprite_6.png');
 
     this.load.image('ship', '/sprite_0.png')
     this.load.image('bullet', '/New Piskel-8.png.png')
